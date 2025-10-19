@@ -1,0 +1,6 @@
+# Core async HTTP + env handling
+httpx==0.27.0
+python-dotenv==1.0.1
+
+# Optional: helpful for debugging or logging
+rich==13.7.0
