@@ -1,4 +1,4 @@
-# VeriRl Optimizer
+# VeriRL Optimizer
 
 This repository contains a small full‑stack toolchain for Verilog optimization testing:
 
@@ -100,7 +100,3 @@ HF_MODEL_MISTRAL=
 
 - Replace regex-based rewrites with a full Verilog parser (recommended for complex designs).
 - Add CI tests that exercise the demo optimizer on a small Verilog corpus and assert expected simplifications.
-
-If you want, I can also:
-- add a small script to run the worker+api+frontend locally with a single command,
-- or implement the parser-based simplifier next (I recommend this for correctness on real designs).
