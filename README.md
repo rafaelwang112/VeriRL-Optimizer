@@ -96,7 +96,7 @@ HF_MODEL_MISTRAL=
 - If the frontend shows `Backend not reachable`, confirm the FastAPI server is running on the `VITE_API_BASE` URL (default `http://127.0.0.1:8000`) and that you started the worker with the same `WORKER_TOKEN` as the API expects.
 - If you want HF-backed optimization, set `MOCK_HF=0` and provide a valid `HF_API_TOKEN` and model slug(s). The worker will attempt a primary model and fall back to `HF_MODEL_MISTRAL` when a 404 is returned.
 
-## Next steps (optional)
+## Next steps
 
-- Replace regex-based rewrites with a full Verilog parser (recommended for complex designs).
+- Replace regex-based rewrites with a full Verilog parser.
 - Add CI tests that exercise the demo optimizer on a small Verilog corpus and assert expected simplifications.
